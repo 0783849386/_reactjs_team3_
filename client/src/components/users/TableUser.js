@@ -1,11 +1,14 @@
 import { useContext, useEffect, useState } from 'react'
 import { UserContext } from '../../contexts/UserContext'
+
 import { Col, Row } from "react-bootstrap"
 import "./TableUser.css"
+
 const TableUser = () => {
     //local state
     const { userState: { users, loading } } = useContext(UserContext)
     let tagTable = (
+
         <thead>
             <tr>
                 <th rowspan="2">STT</th>
@@ -23,9 +26,11 @@ const TableUser = () => {
                 <th rowspan="1">last login date</th>
             </tr>
         </thead>
+
     )
     let table
     let idx = 0
+    console.log(users)
     if (loading) {
         table = (
             users.map(user => (
@@ -45,10 +50,12 @@ const TableUser = () => {
                 </tr>
                    
             )
+
             )
         )
     }
     return (
+
         <>
             <div className="container-fluid">
                 <div className="row">
@@ -259,6 +266,8 @@ const TableUser = () => {
 
         </>
 
+
+      
     )
 }
 
