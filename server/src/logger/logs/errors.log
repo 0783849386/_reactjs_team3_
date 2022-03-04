@@ -20177,3 +20177,79 @@
 [2022-03-04 08:59:18] [[32minfo[39m]: ==================== constructor AuthenticationService====================
 [2022-03-04 08:59:18] [[32minfo[39m]: ==================== constructor UserRepository====================
 [2022-03-04 08:59:18] [[32minfo[39m]: ==================== constructor UserService====================
+[2022-03-04 12:20:51] [[32minfo[39m]: ==================== constructor AuthenticationRepository====================
+[2022-03-04 12:20:51] [[32minfo[39m]: ==================== constructor AuthenticationService====================
+[2022-03-04 12:20:51] [[32minfo[39m]: ==================== constructor UserRepository====================
+[2022-03-04 12:20:51] [[32minfo[39m]: ==================== constructor UserService====================
+[2022-03-04 12:26:19] [[32minfo[39m]: ==================== constructor AuthenticationRepository====================
+[2022-03-04 12:26:19] [[32minfo[39m]: ==================== constructor AuthenticationService====================
+[2022-03-04 12:26:19] [[32minfo[39m]: ==================== constructor UserRepository====================
+[2022-03-04 12:26:19] [[32minfo[39m]: ==================== constructor UserService====================
+[2022-03-04 12:26:47] [[32minfo[39m]: ==================== constructor AuthenticationRepository====================
+[2022-03-04 12:26:47] [[32minfo[39m]: ==================== constructor AuthenticationService====================
+[2022-03-04 12:26:47] [[32minfo[39m]: ==================== constructor UserRepository====================
+[2022-03-04 12:26:47] [[32minfo[39m]: ==================== constructor UserService====================
+[2022-03-04 12:26:58] [[32minfo[39m]: ==================== constructor AuthenticationRepository====================
+[2022-03-04 12:26:58] [[32minfo[39m]: ==================== constructor AuthenticationService====================
+[2022-03-04 12:26:58] [[32minfo[39m]: ==================== constructor UserRepository====================
+[2022-03-04 12:26:58] [[32minfo[39m]: ==================== constructor UserService====================
+[2022-03-04 12:27:58] [[32minfo[39m]: ==================== constructor AuthenticationRepository====================
+[2022-03-04 12:27:58] [[32minfo[39m]: ==================== constructor AuthenticationService====================
+[2022-03-04 12:27:58] [[32minfo[39m]: ==================== constructor UserRepository====================
+[2022-03-04 12:27:58] [[32minfo[39m]: ==================== constructor UserService====================
+[2022-03-04 14:46:53] [[32minfo[39m]: ==================== constructor AuthenticationRepository====================
+[2022-03-04 14:46:53] [[32minfo[39m]: ==================== constructor AuthenticationService====================
+[2022-03-04 14:46:53] [[32minfo[39m]: ==================== constructor UserRepository====================
+[2022-03-04 14:46:53] [[32minfo[39m]: ==================== constructor UserService====================
+[2022-03-04 14:47:12] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 14:47:12] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 14:47:22] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 14:47:22] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 14:52:08] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 14:52:08] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 14:52:14] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 14:52:14] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 14:52:35] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 14:52:35] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 14:52:36] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 14:52:36] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 14:54:36] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 14:54:36] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 14:54:58] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 14:54:58] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 14:55:13] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 14:55:13] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 14:57:17] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 14:57:17] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:10:09] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:10:09] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:10:20] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:10:20] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:15:24] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:15:24] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:17:05] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:17:05] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:23:09] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:23:09] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:23:53] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:23:53] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:26:28] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:26:28] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:26:28] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:26:28] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:31:42] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:31:42] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:46:39] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:46:39] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:46:41] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:46:41] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:47:34] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:47:34] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:47:37] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:47:37] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:51:46] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:51:46] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:56:32] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:56:32] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================
+[2022-03-04 15:56:44] [[32minfo[39m]: ==================== UserService, call method GetAll ====================
+[2022-03-04 15:56:44] [[32minfo[39m]: ==================== UserRepository, call method GetAll ====================

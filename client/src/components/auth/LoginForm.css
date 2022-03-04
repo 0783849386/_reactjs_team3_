@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+.login {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  background-color: #ecf0f3;
+  background-image: url("https://colorlib.com/etc/regform/colorlib-regform-18/images/bg-registration-form-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form-login {
+  width: 430px;
+  height: 700px;
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  text-align: center;
+  background-color: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+.frontpager {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+  letter-spacing: 2px;
+}
+.form-field {
+  margin: 30px 10px 10px 10px;
+  position: relative;
+}
+.form-input {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 20px 10px 20px 20px;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  transition: 0.25s ease;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px 8px 8px #fff;
+}
+
+.form-field label {
+  position: absolute;
+  top: 25%;
+  transform: translateY((-45%));
+  left: 21px;
+  user-select: none;
+  color: #999;
+  pointer-events: none;
+  transition: 0.5s ease;
+}
+/* placeholder-shown */
+.form-input:not(:placeholder-shown) + label,
+.form-input:focus + label {
+  top: -25%;
+  padding: 13px 10px;
+  display: inline-block;
+  background-color: none;
+  color: #000;
+  left: 11px;
+}
+.far {
+  position: absolute;
+  top: 25%;
+  transform: translateY((-45%));
+  right: 15px;
+  user-select: none;
+  color: #999;
+  pointer-events: none;
+}
+.form-btn {
+  outline: none;
+  border: none;
+  padding: 20px 10px 20px 20px;
+  width: 95%;
+  margin-bottom: 30px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "lato", sans-serif;
+  color: #fff;
+  background-color: #02c8db;
+  box-shadow: 13px 13px 20px #cbced1, -3px -3px 5px #fff;
+}
+.form-btn:hover {
+  background-color: aquamarine;
+  color: #000;
+  transition: 1.5s ease;
+}

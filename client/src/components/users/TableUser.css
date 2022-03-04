@@ -1,0 +1,282 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  /* Behind the navbar */
+  padding: 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 48px; /* Height of navbar */
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+/*
+     * Navbar
+     */
+
+.navbar-brand {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.25);
+}
+
+.navbar .form-control {
+  padding: 0.75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
+}
+
+/*
+     * Utilities
+     */
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* css table */
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+  width: 90%;
+  height: 50%;
+  text-align: center;
+  margin: 20px 5% 20px 5%;
+  background-color: #f6f5f7;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+table thead {
+  background-color: #95a5a6;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+table thead tr th {
+  padding: 10px;
+}
+table thead tr th a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+table tbody tr td {
+  padding: 5px;
+}
+table tbody tr td a {
+  color: #000;
+  text-decoration: none;
+}
+table tbody tr td a:hover {
+  color: #000;
+  text-decoration: none;
+}
+table tbody tr td input {
+  color: #000;
+}
+table tfoot tr td {
+  padding: 5px;
+}
+#addusermodal:hover {
+  color: #000;
+  text-decoration: none;
+}
+.modaluser {
+  width: 68% !important;
+  margin: 5% 16% 5% 16% !important;
+  height: 80% !important;
+}
+
+/* css modal*/
+
+form {
+  width: 100%;
+  padding-left: 45px;
+  padding-top: 45px;
+  padding-right: 45px;
+}
+.title-user {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: "Muli-Bold";
+  text-align: center;
+  margin-bottom: 32px;
+  color: #333;
+  letter-spacing: 2px;
+}
+.content-item {
+  display: flex;
+  margin: 10px 20px 10px 0px;
+}
+.content-item:nth-child(7) {
+  display: flex;
+  flex-wrap: wrap;
+}
+.address-content {
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-item input {
+  outline: none;
+  border: 1px solid #ccc;
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding-left: 20px;
+  border-radius: 20px;
+  font-family: "Muli-Bold";
+  background: none;
+  margin-right: 5px;
+}
+.content-item label {
+  font-size: 12px;
+  margin-right: 15px;
+  margin-left: 5px;
+  display: flex;
+  font-weight: 700;
+}
+.role {
+  width: 50%;
+  display: flex;
+}
+.status {
+  width: 50%;
+  display: flex;
+}
+#role {
+  background: none;
+  outline: none;
+  border: 1px solid #ccc;
+  display: block;
+  width: 100px;
+  margin-left: 10px;
+  height: 30px;
+  font-size: 13px;
+  font-family: "Muli-Bold";
+  color: #000;
+}
+#status {
+  background: none;
+  outline: none;
+  border: 1px solid #ccc;
+  display: block;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 30px;
+  font-size: 13px;
+  font-family: "Muli-Bold";
+  color: #000;
+}
+#phone {
+  background: none;
+  outline: none;
+  border: 1px solid #ccc;
+  display: block;
+  width: 100px;
+  margin-right: 10px;
+  height: 35px;
+  font-size: 15px;
+  font-family: "Muli-Bold";
+  color: #000;
+}
+
+textarea {
+  background: none;
+  width: 500px;
+  height: 80px;
+  border: 1px solid #ccc;
+  resize: none;
+  outline: none;
+  padding: 10px;
+}
+/* check input */
+#form {
+  position: relative;
+}
+.address {
+  background: none;
+  border: 1px solid #ccc;
+  display: block;
+  width: 90px;
+  margin: 0px 10px 10px 0px;
+  height: 30px;
+  font-size: 13px;
+  font-family: "Muli-Bold";
+  color: #000;
+}
+#email {
+  outline: none;
+  border: 1px solid #ccc;
+  display: block;
+  width: 80%;
+  padding: 0px 20px 0px 10px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: "Muli-Bold";
+  background: none;
+}
+.inputBox {
+  position: relative;
+}
+#text {
+  font-size: 10px;
+  display: block;
+  padding: 5px;
+}
