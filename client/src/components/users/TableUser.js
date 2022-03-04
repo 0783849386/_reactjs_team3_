@@ -1,19 +1,27 @@
 import { useContext, useEffect, useState } from 'react'
 import { UserContext } from '../../contexts/UserContext'
 import {Col, Row} from "react-bootstrap"
-
+import "../../assets/css/tableUser.css"
 
 const TableUser = () => {
     //local state
     const { userState: { users, loading } } = useContext(UserContext)
     let tagTable = (
-       <Row className="p-2 m-2 border-bottom border-dark">
+       <Row className="p-2 border-bottom border-dark">
            <Col >STT</Col>
            <Col>UserID</Col>
            <Col>Fullname</Col>
            <Col>Email</Col>
            <Col>BirdthDate</Col>
-           <Col>Activity Date</Col>
+           <Col md={2}>
+                <Row>
+                    <Col>Activity Date</Col>
+                </Row>
+                <Row>
+                    <Col>FLDate</Col>
+                    <Col>LLDate</Col>
+                </Row>
+           </Col>
            <Col>Admin</Col>
            <Col>Status</Col>
            <Col>ADD</Col>
@@ -21,19 +29,20 @@ const TableUser = () => {
     )
     let table
     let idx = 0
+    console.log(users)
     if (loading) {
         table = (
             users.map(user => (
-                <Row key={idx++} className="p-2 m-2 border-bottom border-dark">
+                <Row key={idx++} className="p-2 border-bottom border-dark" id={`id-${idx%2}`}>
                     <Col > {idx}</Col>
                     <Col> {user.UserID}</Col>
-                    <Col md={1}> {user.Fullname}</Col>
-                    <Col md={2}> {user.Email} </Col>
-                    <Col md={1}> {user.Birthdate} </Col>
-                    <Col md={1}> {user.FLdate} </Col>
-                    <Col md={1}> {user.lLdate} </Col>
-                    <Col md={1}> {user.Admin} </Col>
-                    <Col md={1}> {user.StatusUser} </Col>
+                    <Col > {user.Fullname}</Col>
+                    <Col> {user.Email} </Col>
+                    <Col> {user.Birthdate} </Col>
+                    <Col> {user.FLdate} </Col>
+                    <Col> {user.LLDate} </Col>
+                    <Col > {user.Admin} </Col>
+                    <Col> {user.StatusUser} </Col>
                     <Col > .....</Col>
                 </Row>
                 )
@@ -41,9 +50,11 @@ const TableUser = () => {
         )
     }
     return (
-        <div className='col-md-8'>
+        <div className='container table-user'>
+            <div className=''>
             {tagTable}
             {table}
+            </div>
         </div>
     )
 }
