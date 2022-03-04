@@ -1,0 +1,27 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Training Resher From 01-2022 to 04-2022",
+        "version": "1.0.0",
+        "title": "Swagger Training",
+        "termsOfService": "http://swagger.io/terms/"
+    },
+    "basePath": "/api/v1",
+    "schemes": [
+        "https",
+        "http"
+    ],
+    "tags": [
+        {
+            "name": "App",
+            "description": "Description App",
+            "externalDocs": {
+                "description": "",
+                "url": ""
+            }
+        }
+    ],
+    "paths":[
+        
+    ]
+}
